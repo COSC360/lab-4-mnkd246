@@ -1,0 +1,62 @@
+html{
+    font-family: Tahoma, Helvetica, sans-serif; 
+}
+
+h1 {
+    font-size: 0.8em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p, body {
+    font-size: 0.9em;
+}
+
+#right-sidebar{
+    height: 600px;
+    width: 150px;
+    float: left;
+    margin: 2em 5em 2em 5em;
+    background-color: rgb(233, 232, 232);
+}
+
+#center{
+    height: 600px;
+    overflow: auto;
+    background-color: rgb(233, 232, 232);
+}
+
+header {
+    margin: 2em 5em 2em 5em;
+    height: 45px;
+    font-size: 1.8em;
+    background-color: rgb(233, 232, 232);
+}
+
+article{
+    margin: 2em 5em 2em 5em;
+}
+
+.linkbutton{
+    float: right;
+    margin-right: 2em;
+    background-color: orange;
+    color: white;
+    padding: 1em 1em 1em 1em;
+    text-decoration: none;
+}
+
+figure{
+    position: relative;
+}
+
+.footer-related{
+    width: 300px;
+   float: left;
+}
+
+.footer-section{
+    
+}
