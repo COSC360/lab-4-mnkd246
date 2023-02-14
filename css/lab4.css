@@ -1,22 +1,21 @@
-html{
-    font-family: Tahoma, Helvetica, sans-serif; 
-}
-
 h1 {
-    font-size: 0.8em;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 1.8em;
 }
 
 h2 {
+    font-family: Tahoma, Helvetica, sans-serif;
     font-size: 1.2em;
 }
 
 p, body {
+    font-family: Tahoma, Helvetica, sans-serif;
     font-size: 0.9em;
 }
 
 #right-sidebar{
     height: 600px;
-    width: 150px;
+    width: 20%;
     float: left;
     margin: 2em 5em 2em 5em;
     background-color: rgb(233, 232, 232);
@@ -28,8 +27,17 @@ p, body {
     background-color: rgb(233, 232, 232);
 }
 
+.entry hr{
+    width: 90%;
+    border: 1px solid #ff8800;
+}
+
+footer hr{
+    border: 1px solid #ff8800;
+}
+
 header {
-    margin: 2em 5em 2em 5em;
+    margin: 2em 5em;
     height: 45px;
     font-size: 1.8em;
     background-color: rgb(233, 232, 232);
@@ -42,21 +50,60 @@ article{
 .linkbutton{
     float: right;
     margin-right: 2em;
-    background-color: orange;
+    background-color: #ff8800;
     color: white;
     padding: 1em 1em 1em 1em;
     text-decoration: none;
 }
 
-figure{
+.entry figure{
     position: relative;
+    float: left;
 }
 
-.footer-related{
-    width: 300px;
-   float: left;
+.entry{
+    clear: both;
+}
+
+.overlayed {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.entry figcaption {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0.5em;
+    margin: 0;
+    }
+
+footer {
+    clear: both;
+    background-color: #474747;
+    color: #F5F5F5;
+    padding: 2em 0;
+}
+    
+.footer-related {
+    width: 50%;
+    float: left;
+    padding: 0 1em;
+    margin-left: 1em;
 }
 
 .footer-section{
-    
+    margin-right: 1em;
 }
+
+.footer-related h2, .footer-section h2 {
+    font-size: 1.2em;
+}
+
+.footer-related img{
+    margin: 0.2em 0.2em;
+}
+    
